@@ -16,16 +16,32 @@ header {
     padding: 10px 0;
 }
 
-nav ul {
-    list-style: none;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav ul li {
-    display: inline;
+.logo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
     margin-right: 20px;
 }
 
-nav ul li a {
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
     color: #fff;
     text-decoration: none;
 }
@@ -35,16 +51,6 @@ nav ul li a {
     color: #fff;
     text-align: center;
     padding: 100px 0;
-}
-
-.cta-button {
-    display: inline-block;
-    background-color: #ff6600;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 5px;
 }
 
 .about {
