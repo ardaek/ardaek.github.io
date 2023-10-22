@@ -44,6 +44,13 @@ header {
 .menu ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
 }
 
 .hero {
