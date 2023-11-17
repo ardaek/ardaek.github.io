@@ -4,28 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arec Technology - Oyun Geliştirme</title>
     <link rel="stylesheet" href="styles.css">
+    <title>ArecTechnology</title>
 </head>
 
 <body>
     <header>
-        <h1>Arec Technology Oyun Geliştirme</h1>
+        <div class="logo">
+            <h1>ArecTechnology</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#anasayfa">Ana Sayfa</a></li>
+                <li><a href="#hizmetlerimiz">Hizmetler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Ana Sayfa</a></li>
-        </ul>
-    </nav>
-    <section class="main-content">
-        <h2>Hoş Geldiniz!</h2>
-        <p>Arec Technology, oyun geliştirme konusunda uzmanlaşmış bir ekiptir. En iyi oyun deneyimini sunmak için buradayız.</p>
-        <button id="gameButton">Bize Katılın!</button>
+    
+    
+
+
+    <section id="anasayfa" class="hero">
+        <div class="hero-content">
+            <h2 class="typing-text">ArecTechnology olarak size en iyi hizmeti sunmak için buradayız.</h2>
+            <button class="main-button" onclick="window.location.href='https://www.instagram.com/arectechnology/'">Daha Fazla Bilgi</button>
+
+        </div>
     </section>
+    
+
+    <section id="hizmetlerimiz" class="services">
+        <h2>Hizmetlerimiz</h2>
+        <div class="service-item">
+            <h3>Web Geliştirme</h3>
+            <p>Modern ve etkileyici web siteleri tasarlıyoruz.</p>
+        </div>
+        <div class="service-item">
+            <h3>Mobil Uygulamalar</h3>
+            <p>Android ve iOS platformları için özel mobil uygulamalar geliştiriyoruz.</p>
+        </div>
+        <div class="service-item">
+            <h3>Oyun Geliştirme</h3>
+            <p>Eğlenceli ve yenilikçi oyunlar tasarlayarak kullanıcı deneyimini artırıyoruz.</p>
+        </div>
+    </section>
+    <section id="iletisim" class="contact-form-section">
+        <h2>İletişim Formu</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Adınız Soyadınız:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+    
+    
+
     <footer>
-        <p>&copy; 2023 Arec Technology. Tüm hakları saklıdır.</p>
+        <p class="footer-text">&copy; 2023 ArecTechnology. Tüm Hakları Saklıdır.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 
 </html>
