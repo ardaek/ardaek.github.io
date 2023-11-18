@@ -55,19 +55,7 @@ nav ul li a {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-/* Diğer CSS kuralları burada yer alacak */
 
-/* Diğer CSS kuralları burada yer alacak */
-
-/* Diğer CSS kuralları burada yer alacak */
-
-/* Diğer CSS kuralları burada yer alacak */
-
-/* Diğer CSS kuralları burada yer alacak */
-
-/* Diğer CSS kuralları burada yer alacak */
-
-/* Diğer CSS kuralları burada yer alacak */
 
 .typing-text {
     overflow: hidden;
@@ -88,7 +76,7 @@ nav ul li a {
 
 
 .main-button {
-    margin-top: 20px; /* Daha Fazla Bilgi düğmesinin üst boşluğunu artırır */
+    margin-top: 20px; 
 }
 
 
@@ -103,7 +91,7 @@ nav ul li a {
     padding: 4rem;
     text-align: center;
 }
-/* Diğer CSS kuralları burada yer alacak */
+
 
 .service-item {
     margin-bottom: 2rem;
